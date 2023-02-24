@@ -10,7 +10,7 @@ GDB file ra ta thấy:
 
 Địa chỉ binary của file là địa chỉ tĩnh, nên ta có thể dùng ROPchain để khai thác chương trình này.
 
-<img width="314" alt="Screenshot_20230225_122534" src="https://user-images.githubusercontent.com/125690279/221246725-eb86be9e-c558-4e71-9ed7-48c2956b8087.png">
+<img width="331" alt="Screenshot_20230225_123728" src="https://user-images.githubusercontent.com/125690279/221249326-7b0a3ecd-3ca3-418c-ba45-1842315c938c.png">
 
 - Dùng ROPgadget để tìm địa chỉ các hàm arg, syscall,... trong chương trình.
 
