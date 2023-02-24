@@ -20,4 +20,6 @@ GDB file ra ta thấy:
 
 <img width="388" alt="Screenshot_20230225_123938" src="https://user-images.githubusercontent.com/125690279/221249915-7e973156-9cc6-4f73-8002-e0638ecf6284.png">
 
-Chạy script, lấy pid và attach vào file bằng GDB ta có thể thấy được các dữ liệu đang được rewrite
+Chạy script, lấy pid và attach vào file bằng GDB ta có thể thấy được các dữ liệu đang được rewrite và /bin/sh đang được tạo bởi script:
+
+<img width="314" alt="Screenshot_20230225_124238" src="https://user-images.githubusercontent.com/125690279/221250769-42c152d9-0fd7-41dd-a02b-b2f02ef05d07.png">
