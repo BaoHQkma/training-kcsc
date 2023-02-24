@@ -8,7 +8,9 @@ GDB file ra ta thấy:
 
 <img width="382" alt="Screenshot_20230224_112808" src="https://user-images.githubusercontent.com/125690279/221245682-fed499cb-a852-4e88-afb1-b8fae3974e20.png">
 
-Địa chỉ binary của file là địa chỉ tĩnh, nên ta có thể dùng ROPchain để khai thác chương trình này.
+- Địa chỉ binary của file là địa chỉ tĩnh.
+- Trong file không tồn tại địa chỉ của /bin/sh.
+=> Ta phải dùng ROPchain để tạo dữ liệu shell.
 
 <img width="331" alt="Screenshot_20230225_123728" src="https://user-images.githubusercontent.com/125690279/221249326-7b0a3ecd-3ca3-418c-ba45-1842315c938c.png">
 
@@ -16,5 +18,6 @@ GDB file ra ta thấy:
 
 - Dùng GDP để tìm khoảng trống dữ liệu để nhập vào các câu lệnh của mình.
 
-<img width="442" alt="Screenshot_20230224_115013" src="https://user-images.githubusercontent.com/125690279/221248834-132a3406-6cbb-42d8-9543-2359d31e90cc.png">
+<img width="388" alt="Screenshot_20230225_123938" src="https://user-images.githubusercontent.com/125690279/221249915-7e973156-9cc6-4f73-8002-e0638ecf6284.png">
 
+Chạy script, lấy pid và attach vào file bằng GDB ta có thể thấy được các dữ liệu đang được rewrite
