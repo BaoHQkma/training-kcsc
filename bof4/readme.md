@@ -23,3 +23,5 @@ GDB file ra ta thấy:
 Chạy script, lấy pid và attach vào file bằng GDB ta có thể thấy được các dữ liệu đang được rewrite và /bin/sh đang được tạo bởi script:
 
 <img width="314" alt="Screenshot_20230225_124238" src="https://user-images.githubusercontent.com/125690279/221250769-42c152d9-0fd7-41dd-a02b-b2f02ef05d07.png">
+
+<img width="398" alt="Screenshot_20230225_121658" src="https://user-images.githubusercontent.com/125690279/221250868-4cc60fb3-0f7c-40d0-9082-563ec066902c.png">
